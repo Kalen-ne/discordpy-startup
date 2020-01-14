@@ -15,7 +15,7 @@ async def on_command_error(ctx, error):
 @client.event
 async def on_message(message):
     if client.user in message.mentions:
-        reply = f'{message.author.mention}呼ばないでください。私はBotです。
+        reply = f'{message.author.mention}呼ばないでください。私はBotです。'
         await message.channel.send(reply)
 
 @bot.command(name="riot")
