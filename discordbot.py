@@ -4,7 +4,7 @@ import traceback
 
 TOKEN = os.environ['DISCORD_BOT_TOKEN']
 
-client.event = discord.Client()
+client.event = discord.Client():
 
 @client.event
 async def pn_rady():
