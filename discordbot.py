@@ -47,6 +47,8 @@ async def arisa(ctx):
 @bot.command(name="confict")
 async def confict(ctx):
     await ctx.send(f"ズォールヒ～～↑ｗｗｗｗヴィヤーンタースｗｗｗｗｗワース フェスツｗｗｗｗｗｗｗルオルｗｗｗｗｗプローイユクｗｗｗｗｗｗｗダルフェ スォーイヴォーｗｗｗｗｗスウェンネｗｗｗｗヤットゥ ヴ ヒェンヴガｒジョｊゴアｊガオガオッガｗｗｗじゃｇｊｊ")
-
+@bot.command(name="USSR")
+async def USSR(ctx):
+    await ctx.send(f"Союз нерушимый республик свободных\n Сплотила навеки Великая Русь.\n Да здравствует созданный волей народов\n Единый, могучий Советский Союз!")
 
 bot.run(token)
