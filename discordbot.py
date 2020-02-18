@@ -50,5 +50,9 @@ async def confict(ctx):
 @bot.command(name="USSR")
 async def USSR(ctx):
     await ctx.send(f"Союз нерушимый республик свободных\n Сплотила навеки Великая Русь.\n Да здравствует созданный волей народов\n Единый, могучий Советский Союз!")
+@bot.command(name="RED")
+async def RED(ctx):
+    await ctx.send(f"ｸｩｩﾚﾅｲｨｨﾆｿｫｫﾏｧｯﾀｱｧｧｸｫｫｵﾉｳｫｵﾚｪｲｳｫｫwwww")
 
 bot.run(token)
+
